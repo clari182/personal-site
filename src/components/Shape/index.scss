@@ -1,0 +1,41 @@
+.shape-container {
+    position: relative;
+    width: 133px;
+    height: 138px;
+    .top {
+        position: absolute;
+        left: 13.53%;
+        right: 24.06%;
+        top: 0%;
+        bottom: 39.86%;
+
+        border: 9px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+    }
+    
+    .right {
+        position: absolute;
+        left: 37.59%;
+        right: 0%;
+        top: 19.57%;
+        bottom: 20.29%;
+        
+        border: 9px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+    }
+    
+    .bottom {
+        position: absolute;
+        left: 0%;
+        right: 37.59%;
+        top: 39.86%;
+        bottom: 0%;
+        
+        border: 9px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+    }
+    
+    .top-top, .right-right, .bottom-bottom {
+        border: 9px solid #FFFFFF;
+    }
+}

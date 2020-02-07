@@ -5,10 +5,12 @@ import Divider from '../../components/Divider'
 
 class Porfolio extends React.Component {
     render() {
-        return <>
-            <Shape type="right" />
+        return <div className="section portfolio">
             <Divider />
-        </>
+            <div className="content">
+                <Shape type="right" />
+            </div>
+        </div>
     }
 }
 

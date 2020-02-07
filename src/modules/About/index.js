@@ -6,9 +6,12 @@ import './index.scss'
 
 class About extends React.Component {
     render() {
-        return <div className="about">
-            <Shape type="top" />
+        return <div className="section about">
             <Divider />
+            <div className="content">
+                <Shape type="top" />
+                <p>laknfwekjbfwe</p>
+            </div>
         </div >
     }
 }
